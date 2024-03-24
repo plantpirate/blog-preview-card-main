@@ -1,0 +1,113 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+
+input, button, textarea, select {
+    font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+}
+
+.figtree-text {
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+}
+
+body {
+    background-color: hsl(47, 88%, 63%);
+    min-height: 100vh;
+    padding: 1rem;
+    display: grid;
+    place-content: center;
+}
+
+.top-image > img {
+    border-radius: .5rem;
+}
+
+.card {
+    background-color: hsl(0, 0%, 100%);
+    padding: 1.5rem;
+    border: 1px solid black;
+    border-radius: 1rem;
+    max-width: 21rem;
+    box-shadow: .5rem .5rem rgba(0, 0, 0, 1);
+}
+
+.learning {
+    max-width: fit-content;
+    background-color: hsl(47, 88%, 63%);
+    border-radius: .5rem;
+    margin-top: 1.5rem;
+}
+
+.learning p {
+    padding: .3rem .8rem;
+    font-size: .8rem;
+}
+
+.card > p:first-of-type {
+    font-size: .9rem;
+}
+
+h1, p {
+    margin: 10px 0;
+}
+
+h1 {
+    font-size: 1.3rem;
+}
+
+h1:hover {
+    color: hsl(47, 88%, 63%);
+}
+
+.author-box {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.author-box>img {
+    width: 2rem;
+    height: 2rem;
+}
+
+.card > p:last-of-type {
+    color: hsl(0, 0%, 50%);
+}
+
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.attribution p { 
+    font-size: 11px; 
+    text-align: center; 
+    margin: 0;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
