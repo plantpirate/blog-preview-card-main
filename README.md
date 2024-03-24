@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![https://github.com/plantpirate/blog-preview-card-main/blob/main/assets/images/screenshot.jpeg](./screenshot.jpg)
 
 
 ### Links
